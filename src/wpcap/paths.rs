@@ -1,9 +1,9 @@
 /// Default paths (os-specific) where the wpcap dynamically loaded library is stored.
 #[cfg(windows)]
 pub const DEFAULT_PATHS: [&'static str; 4] = [
-    "NPcap\\Packet.dll",
+    "C:\\Windows\\System32\\Npcap\\Packet.dll",
     "Packet.dll",
-    "Npcap\\wpcap.dll",
+    "C:\\Windows\\System32\\Npcap\\wpcap.dll",
     "wpcap.dll"
 ];
 
